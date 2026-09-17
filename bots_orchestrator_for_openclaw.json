@@ -1,0 +1,60 @@
+{
+  "name": "rr-aliados-bots-openclaw",
+  "version": "1.0.0",
+  "description": "20 bots unificados para RR ALIADOS S.A.S.",
+  "api": {
+    "base_url": "https://rr-aliados-bots.vercel.app/api",
+    "auth": {
+      "openclaw": "X-API-Key",
+      "key": "sk_rr_bots_openclaw_2026_17sep"
+    }
+  },
+  "bots": {
+    "cajero": {
+      "endpoint": "/api/openclaw",
+      "actions": {
+        "check_runway": {
+          "description": "Estado financiero actual",
+          "input": {},
+          "output": "json"
+        }
+      }
+    },
+    "prospector": {
+      "endpoint": "/api/openclaw",
+      "actions": {
+        "campaign": {
+          "description": "Generar campaña de prospección",
+          "input": {"segmento": "string", "target_count": "number"},
+          "output": "json"
+        }
+      }
+    },
+    "pipeline": {
+      "endpoint": "/api/openclaw",
+      "actions": {
+        "status": {
+          "description": "Estado del pipeline de ventas",
+          "input": {},
+          "output": "json"
+        }
+      }
+    },
+    "skills": {
+      "endpoint": "/api/openclaw",
+      "actions": {
+        "orquestrear": {
+          "description": "Orquestar múltiples agents",
+          "input": {"tarea": "string"},
+          "output": "json"
+        }
+      }
+    }
+  },
+  "quick_start": {
+    "cajero": {
+      "bot": "cajero",
+      "action": "check_runway"
+    }
+  }
+}
