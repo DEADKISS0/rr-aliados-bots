@@ -1,11 +1,11 @@
 {
   "name": "rr-aliados-bots",
   "version": "1.0.0",
-  "description": "20 bots unificados para RR ALIADOS - Accesible desde Hermes, OpenClaw, Telegram",
-  "private": true,
+  "description": "20 agentes unificados para RR ALIADOS - Accesible desde Hermes, OpenClaw, Telegram",
+  "private": false,
   "scripts": {
     "dev": "next dev",
-    "build": "next build", 
+    "build": "next build",
     "start": "next start"
   },
   "dependencies": {
