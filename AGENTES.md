@@ -1,92 +1,85 @@
-# 📋 GUÍA DE LOS 20 AGENTES DE RR ALIADOS
+# 🤖 RR Aliados - Los 20 Agentes Especializados
 
-> **Propósito:** Lista completa de los 20 agentes especializados para usar desde cualquier chat (Hermes, OpenClaw, Telegram)
-
----
-
-## 🔴 CRÍTICOS (Prioridad Alta - Usar diariamente)
-
-| # | Agente | Uso Principal | Trigger |
-|---|--------|---------------|---------|
-| 1 | **Cajero** | Estado financiero, runway | "¿Runway?", "Estado caja" |
-| 2 | **Prospector** | Generar leads, pipeline | "Nuevos prospects", "Leads panaderías" |
-| 3 | **Cierre** | Tracking de contratos | "Estado BOGA", "Cierre Sátiro" |
-| 4 | **Skills** | Orquestar múltiples agents | "Orquesta todo", "Multi-agentes" |
+**Acceso instantáneo a todos los agentes desde cualquier chat**
 
 ---
 
-## 🟡 ALTO PRIORIDAD
+## 🔴 AGENTES CRÍTICOS (Prioridad Alta - Usar Diariamente)
 
-| # | Agente | Uso Principal | Trigger |
-|---|--------|---------------|---------|
-| 5 | **Pipeline** | Dashboard de ventas | "Pipeline ventas", "Oportunidades" |
-| 6 | **Facturas** | Crear/gestionar facturas | "Nueva factura BOGA" |
-| 7 | **Timeline** | Fechas y entregas | "Entregas próximas" |
-| 8 | **Success** | Client success tracking | "Estado cliente Wuundeer" |
-
----
-
-## 🟢 MEDIO PRIORIDAD
-
-| # | Agente | Uso Principal | Trigger |
-|---|--------|---------------|---------|
-| 9 | **Meeting** | Coordinar reuniones | "Reunión mañana" |
-| 10 | **Docs** | Búsqueda documentos | "Buscar contrato" |
-| 11 | **Brand** | Verificar identidad visual | "Brand kit BOGA" |
-| 12 | **Resources** | Encontrar recursos | "¿Dónde está?" |
-| 13 | **Onboard** | Onboarding empleados | "Nuevo colaborador" |
-| 14 | **Desarrollista** | Code review, dev | "Revisar PR" |
-| 15 | **Cronograma** | Planes y fechas | "Roadmap 2026" |
+| Agente | Categoría | Uso | Badge |
+|--------|-----------|-----|-------|
+| **Cajero** | Finanzas | Estado financiero, runway | ![Finanzas](https://img.shields.io/badge/Finanzas-red) |
+| **Prospector** | Ventas | Generar leads, pipeline | ![Ventas](https://img.shields.io/badge/Ventas-red) |
+| **Cierre** | Ventas | Tracking de contratos | ![Ventas](https://img.shields.io/badge/Ventas-red) |
+| **Pipeline** | Ventas | Dashboard ventas | ![Ventas](https://img.shields.io/badge/Ventas-red) |
+| **Skills** | IA | Orquestar todo | ![IA](https://img.shields.io/badge/IA-red) |
 
 ---
 
-## 🔵 BAJA PRIORIDAD
+## 🟡 AGENTES ALTA PRIORIDAD
 
-| # | Agente | Uso Principal | Trigger |
-|---|--------|---------------|---------|
-| 16 | **Producción** | Content scheduling | "Publicar contenido" |
-| 17 | **Contratista** | Gestión contratos | "Vencimientos contractuales" |
-| 18 | **Metrics** | KPIs y métricas | "Métricas del mes" |
-| 19 | **Reclutamiento** | Screening candidatos | "Buscar desarrollador" |
-| 20 | **Compliance** | Auditoría normativa | "¿Estamos en compliance?" |
+| Agente | Categoría | Uso | Badge |
+|--------|-----------|-----|-------|
+| **Facturas** | Finanzas | Generar facturas | ![Finanzas](https://img.shields.io/badge/Finanzas-orange) |
+| **Timeline** | Operación | Fechas entregas | ![Operación](https://img.shields.io/badge/Operación-orange) |
+| **Meeting** | Operación | Coordinar reuniones | ![Operación](https://img.shields.io/badge/Operación-orange) |
+| **Docs** | Operación | Buscar documentos | ![Operación](https://img.shields.io/badge/Operación-orange) |
+| **Success** | Ventas | Tracking clientes | ![Ventas](https://img.shields.io/badge/Ventas-orange) |
 
 ---
 
-## 🎯 EJEMPLOS DE USO DESDE CUALQUIER CHAT
+## 🟢 AGENTES DE APOYO
 
-### Preguntas directas:
-```
-Cajero, ¿cuál es el runway?
-Prospector, generar 20 leads para panaderías
-Pipeline, ¿estado actual?
-Skills, orquestar análisis financiero y ventas
+| Agente | Categoría | Uso | Badge |
+|--------|-----------|-----|-------|
+| **Brand** | Marca | Auditoría visual | ![Marca](https://img.shields.io/badge/Marca-green) |
+| **Resources** | Recursos | Encontrar assets | ![Recursos](https://img.shields.io/badge/Recursos-green) |
+| **Onboard** | HR | Nuevo colaborador | ![HR](https://img.shields.io/badge/HR-green) |
+| **Dev** | Tech | Review código | ![Tech](https://img.shields.io/badge/Tech-green) |
+| **Cronograma** | Estrategia | Roadmaps | ![Estrategia](https://img.shields.io/badge/Estrategia-green) |
+| **Producción** | Marketing | Content calendar | ![Marketing](https://img.shields.io/badge/Marketing-green) |
+| **Contratista** | Legal | Gestión contratos | ![Legal](https://img.shields.io/badge/Legal-green) |
+| **Metrics** | Estrategia | KPIs | ![Estrategia](https://img.shields.io/badge/Estrategia-green) |
+| **Reclutamiento** | HR | Screening | ![HR](https://img.shields.io/badge/HR-green) |
+| **Compliance** | Legal | Auditoría | ![Legal](https://img.shields.io/badge/Legal-green) |
+| **Visionario** | Estrategia | Análisis mercado | ![Estrategia](https://img.shields.io/badge/Estrategia-green) |
+
+---
+
+## 🎯 ACCESO RÁPIDO UNIVERSAL
+
+### Desde OpenClaw:
+```json
+{
+  "bot": "cajero",
+  "action": "check_runway"
+}
 ```
 
-### Preguntas estructuradas:
+### Desde Hermes Desktop:
 ```
-Agente: cajero
-Pregunta: Estado financiero con alertas
-Formato: Markdown
+/api/hermes?bot=cajero&action=check_runway
 ```
 
-### Urgente:
+### Desde Telegram:
 ```
-Cajero, URGENTE - Runway crítico necesito acciones
+/bot_cajero check_runway
+```
+
+### Desde cualquier chatbot:
+```
+RR Aliados, estado financiero
 ```
 
 ---
 
-## 🔗 INTEGRACIÓN TECHNICAL
+## 🚀 COMANDOS INMEDIATOS POR AGENTE
 
-### Endpoints disponibles:
-- **Hermes:** `/api/hermes?bot=<alias>&action=<accion>`
-- **OpenClaw:** `POST /api/openclaw`
-- **Web:** `https://rr-aliados-bots.vercel.app/`
-
-### API Key OpenClaw:
-```
-X-API-Key: ***
-```
+**Cajero:** `"runway"`, `"estado finanzas"`, `"alertas críticas"`
+**Prospector:** `"20 leads"`, `"generar prospects"`
+**Skills:** `"todo"`, `"orquestar todo"`
+**Pipeline:** `"status"`, `"ventas"`
+**Facturas:** `"generar factura"`, `"cobros pendientes"`
 
 ---
 
@@ -96,3 +89,6 @@ Cada agente tiene su archivo SKILL.md en:
 ```
 bots_internos/agentes/agente-<nombre>.md
 ```
+
+**Implementado:** Todos los agentes disponibles  
+**Total:** 11 agentes visibles + 9 pendientes
